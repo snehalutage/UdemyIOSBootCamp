@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonPressed(_ sender: UIButton)
+    {
+        print("Button pressed!")
+    }
     
 
 }
