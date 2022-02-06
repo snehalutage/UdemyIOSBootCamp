@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: UIButton)
     {
         playSound(clickedButton: sender.currentTitle!)
+
     }
     
     func playSound(clickedButton: String)
